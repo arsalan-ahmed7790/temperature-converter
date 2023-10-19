@@ -10,7 +10,7 @@ document.getElementById('converter-form').addEventListener('submit', function (e
     }
 });
 
-document.getElementById('aconverter-form').addEventListener('submit', function (e) {
+document.getElementById('areaconverter-form').addEventListener('submit', function (e) {
     e.preventDefault();
     const marla = parseFloat(document.getElementById('marla').value);
     const squareFeet = marla * 272.25; // 1 Marla = 272.25 square feet
@@ -21,3 +21,16 @@ document.getElementById('aconverter-form').addEventListener('submit', function (
         document.getElementById('resul').textContent = 'Result: Invalid input';
     }
 });
+
+document.getElementById('yardconverter-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const yards = parseFloat(document.getElementById('yards').value);
+    const squareFeet = yards * 9; // 1 Yard = 9 square feet
+
+    if (!isNaN(squareFeet)) {
+        document.getElementById('resut').textContent = `Result: ${squareFeet.toFixed(2)} square feet`;
+    } else {
+        document.getElementById('resut').textContent = 'Result: Invalid input';
+    }
+});
+

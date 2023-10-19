@@ -52,49 +52,11 @@ button:hover {
 
 /*area convertr*/
 
-.aconverter {
-    background-color: #000000;
-    width: 320px;
-    margin: 100px auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-}
-
-.aconverter h1 {
-    font-size: 24px;
-}
-
-.aconverter form {
-    display: flex;
-    flex-direction: column;
-}
-
-.aconverter input {
-    margin: 5px 0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-.aconverter button {
-    background-color: #cf0b0b;
-    color: white;
-    font-size: 24px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.aconverter button:hover {
-    background-color: #555;
-}
-
-.aconverter #resul {
+#resul {
     margin-top: 10px;
     font-size: 24px;
 }
-
+#resut {
+    margin-top: 10px;
+    font-size: 24px;
+}
